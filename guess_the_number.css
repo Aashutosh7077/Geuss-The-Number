@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    height: 500px;
+    width: 600px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 40px;
+    box-shadow: 0px 0px 3px 3px rgb(176, 190, 253);
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 6%;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: blueviolet;
+}
+.container p{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+}
+#value{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none ;
+    background-color: rgb(255, 169, 169);
+    margin: 5px;
+    font-size: 28px;
+    font-weight: 800;
+    color: blue;
+}
+#guess{
+    height: 30px;
+    width: 80px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px;
+}
+
